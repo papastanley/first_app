@@ -18,6 +18,11 @@ group :assets do
 end
 
 gem 'jquery-rails', '2.0.2'
+
+group :production do
+  gem 'pg', '0.12.2'
+end
+
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
